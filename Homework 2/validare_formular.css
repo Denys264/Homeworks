@@ -1,0 +1,32 @@
+.pclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: black;
+    color: green;
+}
+h1{
+    display: flex;
+    background-color: black;
+    color: green;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+body{
+    height: 100vh;
+    margin:0;
+    background-color: gray;;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    display: none;
+  }

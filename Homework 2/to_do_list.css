@@ -1,0 +1,117 @@
+#todoApp {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  #addTaskForm {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #newTask {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #taskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #f5f5f5;
+    margin-bottom: 5px;
+  }
+  
+  #taskList li:last-child {
+    margin-bottom: 0;
+  }
+  
+  #taskList li .delete {
+    background-color: #ff5757;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #taskList li .delete:hover {
+    background-color: #ff3b3b;
+  }
+
+  .pclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: black;
+    color: green;
+}
+h1{
+    display: flex;
+    background-color: black;
+    color: green;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+body{
+    height: 100vh;
+    margin:0;
+    background-color: gray;;
+}
+
+
+   
+   
+   
+   #todoInput {
+    margin-bottom: 10px;
+    padding: 5px;
+   }
+   
+   button {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 5px;
+    border:none;
+    margin:10px;
+   }
+   
+   li {
+    margin-bottom: 5px;
+    font-family: cursive;
+    color:green;
+   }
+   
+   .completed {
+    text-decoration: line-through;
+   }
+
+   .flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+   }
+   input[type="text"]{
+    border:none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: cursive;
+
+   }

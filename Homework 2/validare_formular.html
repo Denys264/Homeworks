@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validare_formular.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Homework 2</h1>
+
+<div class="pclass">
+<a href="slider.html"><p>Image Slider</p></a>
+<a href="validare_formular.html"><p>Validation Form</p></a>
+<a href="to_do_list.html"><p>To do list</p></a>
+</div>
+
+<form id="registrationForm" action="to_do_list.html">
+    <label>Email:</label>
+    <input type="email" id="email" required>
+    <span id="emailError" class="error"></span><br>
+  
+    <label>Password:</label>
+    <input type="password" id="password" required>
+    <span id="passwordError" class="error"></span><br>
+  
+    <label>Confirm Password:</label>
+    <input type="password" id="confirmPassword" required>
+    <span id="confirmPasswordError" class="error"></span><br>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+<script src="validare_formular.js"></script>
+</body>
+</html>
